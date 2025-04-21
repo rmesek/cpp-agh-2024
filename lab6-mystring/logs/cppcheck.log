@@ -1,0 +1,24 @@
+/tmp/tmp7g7vgy9s/student/mystring.h:14:3: warning: Class 'MyString' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+  MyString(const char *text = "");
+  ^
+/tmp/tmp7g7vgy9s/student/mystring.cpp:91:0: warning: The function 'getUniqueWords' is never used. [unusedFunction]
+std::set<MyString> MyString::getUniqueWords() const {
+^
+/tmp/tmp7g7vgy9s/student/mystring.cpp:106:0: warning: The function 'generateRandomWord' is never used. [unusedFunction]
+MyString MyString::generateRandomWord(size_t length) {
+^
+/tmp/tmp7g7vgy9s/student/mystring.cpp:120:0: warning: The function 'join' is never used. [unusedFunction]
+MyString MyString::join(const std::vector<MyString> &texts) const {
+^
+/tmp/tmp7g7vgy9s/student/mystring.cpp:131:0: warning: The function 'startsWith' is never used. [unusedFunction]
+bool MyString::startsWith(const char *text) const {
+^
+/tmp/tmp7g7vgy9s/student/mystring.cpp:139:0: warning: The function 'endsWith' is never used. [unusedFunction]
+bool MyString::endsWith(const MyString &string) const {
+^
+/tmp/tmp7g7vgy9s/student/mystring.cpp:146:0: warning: The function 'toLower' is never used. [unusedFunction]
+MyString &MyString::toLower() {
+^
+/tmp/tmp7g7vgy9s/student/mystring.cpp:151:0: warning: The function 'trim' is never used. [unusedFunction]
+MyString &MyString::trim() {
+^
