@@ -1,0 +1,18 @@
+/tmp/tmpwvia82wq/student/fraction.cpp:18:0: warning: The function 'setNumerator' is never used. [unusedFunction]
+void Fraction::setNumerator(int numerator) { numerator_ = numerator; }
+^
+/tmp/tmpwvia82wq/student/fraction.cpp:20:0: warning: The function 'setDenominator' is never used. [unusedFunction]
+void Fraction::setDenominator(int denominator) {
+^
+/tmp/tmpwvia82wq/student/vector.cpp:48:0: warning: The function 'size' is never used. [unusedFunction]
+std::size_t Vector::size() const noexcept { return size_; }
+^
+/tmp/tmpwvia82wq/student/vector.cpp:50:0: warning: The function 'capacity' is never used. [unusedFunction]
+std::size_t Vector::capacity() const noexcept { return capacity_; }
+^
+/tmp/tmpwvia82wq/student/vector.cpp:52:0: warning: The function 'data' is never used. [unusedFunction]
+Fraction *Vector::data() const noexcept { return data_.get(); }
+^
+/tmp/tmpwvia82wq/student/vector.cpp:54:0: warning: The function 'push_back' is never used. [unusedFunction]
+void Vector::push_back(const Fraction &fraction) {
+^
